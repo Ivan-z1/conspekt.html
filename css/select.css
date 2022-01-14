@@ -1,0 +1,59 @@
+/* Общие стили для всех типов оповещения */
+.alert {
+  font-size: 24px;
+  font-weight: 500px;
+}
+
+/* Специальные стили для каждого типа */
+.success {
+  color: green;
+}
+.warning {
+  color: orange;
+}
+.error {
+  color: red;
+}
+#title {
+  font-weight: 500;
+  color: orange;
+}
+/* Применится во всех ссылках в документе */
+a {
+  color: green;
+  text-decoration: none;
+}
+/* Примениться только к ссылкам которые лежат внутри тега с классом social-links */
+
+.social-links a {
+  color: orange;
+  text-decoration: none;
+}
+
+.menu > li {
+  border: 1px solid tomato;
+}
+
+a[titles] {
+  color: teal;
+}
+
+a[href="https://htmlreference.io"]
+{
+  color: green;
+}
+a[href="https://cssreference.io"]
+{
+  color: orange;
+}
+a[href="https://www.youtube.com"]
+}
+
+.link {
+  color: teal;
+}
+
+.link:hover,
+.link:focus {
+    color: tomato;
+}
